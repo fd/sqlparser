@@ -18,8 +18,8 @@ import (
 	"time"
 
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 // First byte in the encoded value which specifies the encoding type.

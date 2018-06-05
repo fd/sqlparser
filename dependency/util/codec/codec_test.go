@@ -19,9 +19,9 @@ import (
 	"testing"
 
 	. "github.com/ruiaylin/check"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/dependency/util/testleak"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/util/testleak"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 func TestT(t *testing.T) {

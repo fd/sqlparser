@@ -15,9 +15,9 @@ package ast
 
 import (
 	. "github.com/ruiaylin/check"
-	"github.com/ruiaylin/sqlparser/dependency/model"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/model"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 var _ = Suite(&testFunctionsSuite{})

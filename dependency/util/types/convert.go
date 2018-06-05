@@ -24,7 +24,7 @@ import (
 	"unicode"
 
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/mysql"
 )
 
 var (

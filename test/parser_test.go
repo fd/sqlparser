@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	. "github.com/ruiaylin/check"
-	"github.com/ruiaylin/sqlparser/ast"
-	"github.com/ruiaylin/sqlparser/dependency/util/testleak"
-	"github.com/ruiaylin/sqlparser/parser"
+	"github.com/fd/sqlparser/ast"
+	"github.com/fd/sqlparser/dependency/util/testleak"
+	"github.com/fd/sqlparser/parser"
 )
 
 func TestT(t *testing.T) {

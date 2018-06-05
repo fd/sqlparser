@@ -16,8 +16,8 @@ package codec
 import (
 	"github.com/juju/errors"
 	"github.com/ngaut/log"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 // EncodeDecimal encodes a decimal d into a byte slice which can be sorted lexicographically later.

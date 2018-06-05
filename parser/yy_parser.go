@@ -21,9 +21,9 @@ import (
 	"unicode"
 
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/ast"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/dependency/terror"
+	"github.com/fd/sqlparser/ast"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/terror"
 )
 
 // Error instances.

@@ -15,7 +15,7 @@ package mysql
 
 import (
 	. "github.com/ruiaylin/check"
-	"github.com/ruiaylin/sqlparser/dependency/util/testleak"
+	"github.com/fd/sqlparser/dependency/util/testleak"
 )
 
 var _ = Suite(&testSetSuite{})

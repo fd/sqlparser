@@ -17,7 +17,7 @@ import (
 	"math"
 
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/mysql"
 )
 
 // RoundFloat rounds float val to the nearest integer value with float64 format, like MySQL Round function.

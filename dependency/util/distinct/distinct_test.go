@@ -16,7 +16,7 @@ package distinct
 import (
 	"testing"
 	"github.com/ruiaylin/check"
-	"github.com/ruiaylin/sqlparser/dependency/util/testleak"
+	"github.com/fd/sqlparser/dependency/util/testleak"
 )
 
 func TestT(t *testing.T) {

@@ -32,12 +32,12 @@ import __yyfmt__ "fmt"
 import (
 	"strings"
 
-	"github.com/ruiaylin/sqlparser/ast"
-	"github.com/ruiaylin/sqlparser/dependency/model"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/dependency/util/charset"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
-	"github.com/ruiaylin/sqlparser/parser/opcode"
+	"github.com/fd/sqlparser/ast"
+	"github.com/fd/sqlparser/dependency/model"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/util/charset"
+	"github.com/fd/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/parser/opcode"
 )
 
 type yySymType struct {

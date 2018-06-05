@@ -21,7 +21,7 @@ import (
 
 	"github.com/juju/errors"
 	"github.com/ngaut/log"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/mysql"
 )
 
 // Common base error instances.

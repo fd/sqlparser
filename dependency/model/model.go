@@ -16,7 +16,7 @@ package model
 import (
 	"strings"
 
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 // SchemaState is the state for schema elements.

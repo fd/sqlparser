@@ -15,8 +15,8 @@ package ast_test
 
 import (
 	. "github.com/ruiaylin/check"
-	. "github.com/ruiaylin/sqlparser/ast"
-	"github.com/ruiaylin/sqlparser/parser"
+	. "github.com/fd/sqlparser/ast"
+	"github.com/fd/sqlparser/parser"
 )
 
 var _ = Suite(&testMiscSuite{})

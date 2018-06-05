@@ -16,7 +16,7 @@ package codec
 import (
 	"testing"
 
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 var valueCnt = 100

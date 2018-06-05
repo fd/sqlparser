@@ -15,8 +15,8 @@ package distinct
 
 import (
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/dependency/util/codec"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/util/codec"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 // CreateDistinctChecker creates a new distinct checker.

@@ -17,8 +17,8 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/ruiaylin/sqlparser/dependency/util/charset"
-	"github.com/ruiaylin/sqlparser/dependency/util/hack"
+	"github.com/fd/sqlparser/dependency/util/charset"
+	"github.com/fd/sqlparser/dependency/util/hack"
 )
 
 func isLetter(ch rune) bool {

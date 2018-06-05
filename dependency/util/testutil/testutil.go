@@ -18,7 +18,7 @@ import (
 	"strings"
 
 	"github.com/ruiaylin/check"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 // CompareUnorderedStringSlice compare two string slices.

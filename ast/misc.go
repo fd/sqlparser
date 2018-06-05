@@ -16,8 +16,8 @@ package ast
 import (
 	"fmt"
 
-	"github.com/ruiaylin/sqlparser/dependency/model"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/model"
+	"github.com/fd/sqlparser/dependency/mysql"
 )
 
 var (

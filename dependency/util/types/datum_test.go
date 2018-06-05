@@ -15,7 +15,7 @@ package types
 
 import (
 	. "github.com/ruiaylin/check"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/mysql"
 )
 
 var _ = Suite(&testDatumSuite{})

@@ -16,9 +16,9 @@ package ast
 import (
 	"regexp"
 
-	"github.com/ruiaylin/sqlparser/dependency/model"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
-	"github.com/ruiaylin/sqlparser/parser/opcode"
+	"github.com/fd/sqlparser/dependency/model"
+	"github.com/fd/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/parser/opcode"
 )
 
 var (

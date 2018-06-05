@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/dependency/util/charset"
-	"github.com/ruiaylin/sqlparser/dependency/util/hack"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/util/charset"
+	"github.com/fd/sqlparser/dependency/util/hack"
 	"sort"
 )
 

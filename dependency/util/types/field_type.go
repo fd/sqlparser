@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/dependency/util/charset"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/dependency/util/charset"
 )
 
 // UnspecifiedLength is unspecified length.

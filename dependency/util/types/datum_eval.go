@@ -17,8 +17,8 @@ import (
 	"math"
 
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/parser/opcode"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/parser/opcode"
 )
 
 // CoerceArithmetic converts datum to appropriate datum for arithmetic computing.

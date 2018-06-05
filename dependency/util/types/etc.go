@@ -22,10 +22,10 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/dependency/mysql"
-	"github.com/ruiaylin/sqlparser/parser/opcode"
-	"github.com/ruiaylin/sqlparser/dependency/terror"
-	"github.com/ruiaylin/sqlparser/dependency/util/charset"
+	"github.com/fd/sqlparser/dependency/mysql"
+	"github.com/fd/sqlparser/parser/opcode"
+	"github.com/fd/sqlparser/dependency/terror"
+	"github.com/fd/sqlparser/dependency/util/charset"
 )
 
 // IsTypeBlob returns a boolean indicating whether the tp is a blob type.

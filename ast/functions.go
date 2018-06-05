@@ -19,9 +19,9 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/ruiaylin/sqlparser/dependency/model"
-	"github.com/ruiaylin/sqlparser/dependency/util/distinct"
-	"github.com/ruiaylin/sqlparser/dependency/util/types"
+	"github.com/fd/sqlparser/dependency/model"
+	"github.com/fd/sqlparser/dependency/util/distinct"
+	"github.com/fd/sqlparser/dependency/util/types"
 )
 
 var (

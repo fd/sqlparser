@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+git remote update origin
+git rebase origin/upstreaming
+go get -u github.com/rogpeppe/govers
+govers -m "github.com/ruiaylin/sqlparser" "github.com/fd/sqlparser"

@@ -70,3 +70,4 @@ target/
 
 .DS_*
 *.pyc
+/bin
